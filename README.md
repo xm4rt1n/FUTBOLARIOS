@@ -62,6 +62,6 @@ Actualizacion de jugadores
 • Integrantes del equipo de desarrollo: Nombre, Apellidos, correo oficial de la universidad y
 cuenta en GitHub.
 
-Adrian Martin Martin 		a.martinmar.2018@alumnos.urjc.es	xm4rt1n
+Adrian Martin Martin 	   	a.martinmar.2018@alumnos.urjc.es	
 
-Cristofer Tamaral Martin	
+Cristofer Tamaral Martin	 c.tamaral.2018@alumnos.urjc.es
