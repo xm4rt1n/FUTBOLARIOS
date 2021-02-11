@@ -52,11 +52,7 @@ Autor, contenido, fecha
 
 • Descripción de las funcionalidades del servicio interno
 
-Actualizacion de noticas
-
-Actualizacion de equipos
-
-Actualizacion de jugadores
+Enviar un correo cuando salga la noticia de un equipo a la gente que lo haya elegido coomo favorito
 
 
 • Integrantes del equipo de desarrollo: Nombre, Apellidos, correo oficial de la universidad y
