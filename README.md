@@ -54,8 +54,7 @@ Autor, contenido, fecha
 Enviar un correo cuando salga la noticia de un equipo a la gente que lo haya elegido coomo favorito
 
 
-# • Integrantes del equipo de desarrollo: Nombre, Apellidos, correo oficial de la universidad y
-cuenta en GitHub.
+# • Integrantes del equipo de desarrollo: Nombre, Apellidos, correo oficial de la universidad y cuenta en GitHub.
 
 Adrian Martin Martin 	   	a.martinmar.2018@alumnos.urjc.es	
 
