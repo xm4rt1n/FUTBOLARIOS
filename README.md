@@ -1,7 +1,7 @@
-# • Nombre de la aplicación web.#
+# • Nombre de la aplicación web.
 FUTBOLARIOS
 
-• Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada
+# • Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada
 y diferente para cada usuario.
 
 La web tendrá una temática de fútbol.
@@ -19,7 +19,7 @@ Además tendrá una sección privada:
  
  • Posibilidad de elegir un equpo favorito para teener noticias de ese equipo
 
-• Nombre y descripción de cada una de las 4 o 5 entidades principales.
+# • Nombre y descripción de cada una de las 4 o 5 entidades principales.
 
 1. Noticia
 
@@ -50,12 +50,12 @@ El usuario podrá escribir y leer mensajes
 
 Autor, contenido, fecha
 
-• Descripción de las funcionalidades del servicio interno
+# • Descripción de las funcionalidades del servicio interno
 
 Enviar un correo cuando salga la noticia de un equipo a la gente que lo haya elegido coomo favorito
 
 
-• Integrantes del equipo de desarrollo: Nombre, Apellidos, correo oficial de la universidad y
+# • Integrantes del equipo de desarrollo: Nombre, Apellidos, correo oficial de la universidad y
 cuenta en GitHub.
 
 Adrian Martin Martin 	   	a.martinmar.2018@alumnos.urjc.es	
