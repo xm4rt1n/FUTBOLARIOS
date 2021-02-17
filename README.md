@@ -1,4 +1,4 @@
-#• Nombre de la aplicación web.
+# • Nombre de la aplicación web.#
 FUTBOLARIOS
 
 • Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada
