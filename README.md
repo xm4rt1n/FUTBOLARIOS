@@ -1,8 +1,7 @@
 # • Nombre de la aplicación web.
 FUTBOLARIOS
 
-# • Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada
-y diferente para cada usuario.
+# • Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada y diferente para cada usuario.
 
 La web tendrá una temática de fútbol.
 En ella encontraremos secciones públicas como:
@@ -21,30 +20,30 @@ Además tendrá una sección privada:
 
 # • Nombre y descripción de cada una de las 4 o 5 entidades principales.
 
-1. Noticia
+## 1. Noticia
 
 En esta sección el usuario podrá ver la actualidad futbolística
 
 Cada noticia tendra un titulo, un desarrollo, un equipo/s asociado y una fecha 
 
-2. Equipo
+## 2. Equipo
 
 Se podrá ver la información del equipo
 Nombre, escudo, número de jugadores, goles metidos, goles encajados, partidos ganados, perdidos, empatados, puntos
 
-3. Jugador
+## 3. Jugador
 
 Se podra ver la informacion del jugador
 
 Nombre, edad, nacionalidad, equipo, goles, asistencias, partidos jugados
 
-4. Usuario
+## 4. Usuario
 
 Podra personalizar su perfil
 
 Nombre, contraseña, equipo favorito, edad.
 
-5. Mensaje
+## 5. Mensaje
 
 El usuario podrá escribir y leer mensajes
 
