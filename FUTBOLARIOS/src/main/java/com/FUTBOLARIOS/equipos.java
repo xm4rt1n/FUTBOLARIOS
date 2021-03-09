@@ -46,7 +46,7 @@ public class equipos
         this.Imagen=IM;
 	}
 	 
-    //GETTERS Y SETTERS.
+	//GETTERS, SETTERS y TOSTRING
     public String getNombre() {
 		return Nombre;
 	}

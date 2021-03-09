@@ -2,8 +2,10 @@ package com.FUTBOLARIOS;
 
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +18,9 @@ public class WebController
 	
 	@Autowired
 	private EquiposRepository Equipo;
+	
+	@Autowired
+	private JugadoresRepository Jugador;
 		
 	@GetMapping("/Noticias")
 	public String MetodoNoticias(Model model)
@@ -33,30 +38,44 @@ public class WebController
 		return "Equipos";
 	}	
 	
+	@GetMapping("/Jugadores")
+	public String MetodoJugadores()
+	{
+		return "Jugadores_Menú";
+	}	
+	
 	/******************* Equipos **************************/
 	
 	@GetMapping("/Equipos/Real Madrid")
-	public String MetodoEquipos_RealMadrid()
+	public String MetodoEquipos_RealMadrid(Model model)
 	{
-		return "Equipos_RealMadrid";
+		List<jugadores> jugadores = Jugador.findAllDateTeamRealMadrid();
+		model.addAttribute("JU", jugadores);
+		return "Jugadores";
 	}	
 	
 	@GetMapping("/Equipos/Barcelona")
-	public String MetodoEquipos_Barcelona()
+	public String MetodoEquipos_Barcelona(Model model)
 	{
-		return "Equipos_Barcelona";
+		List<jugadores> jugadores = Jugador.findAllDateTeamBarcelona();
+		model.addAttribute("JU", jugadores);
+		return "Jugadores";
 	}
 	
 	@GetMapping("/Equipos/Atlético de Madrid")
-	public String MetodoEquipos_AtleticodeMadrid()
+	public String MetodoEquipos_AtleticodeMadrid(Model model)
 	{
-		return "Equipos_AtleticodeMadrid";
+		List<jugadores> jugadores = Jugador.findAllDateTeamAtleticoDeMadrid();
+		model.addAttribute("JU", jugadores);
+		return "Jugadores";
 	}
 	
 	@GetMapping("/Equipos/Sevilla")
-	public String MetodoEquipos_Sevilla()
+	public String MetodoEquipos_Sevilla(Model model)
 	{
-		return "Equipos_Sevilla";
+		List<jugadores> jugadores = Jugador.findAllDateTeamSevila();
+		model.addAttribute("JU", jugadores);
+		return "Jugadores";	
 	}
 	
 	/*********************************************************/

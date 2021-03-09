@@ -32,7 +32,7 @@ public class noticias
        this.Fecha=Fecha;  	
     }
 
-    //GETTERS Y SETTERS.
+    //GETTERS, SETTERS y TOSTRING
 	public long getCodigo_Noticia() {
 		return Codigo_Noticia;
 	}
