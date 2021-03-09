@@ -24,6 +24,9 @@ public class WebController
 	
 	@Autowired
 	private JugadoresRepository Jugador;
+	
+	@Autowired
+	private mensajeRepository Mensaje;
 		
 	@GetMapping("/Noticias")
 	public String MetodoNoticias(Model model)
@@ -59,6 +62,14 @@ public class WebController
 	{
 		return "Jugadores_Menú";
 	}	
+	
+	@GetMapping("/Foro")
+	public String MetodoForo(Model model)
+	{
+		List<Mensaje> mensaje = Mensaje.findAll();
+		model.addAttribute("ME", mensaje);
+		return "Foro";
+	}
 	
 	/******************* EQUIPOS **************************/
 	
