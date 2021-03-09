@@ -1,20 +1,35 @@
 package com.FUTBOLARIOS;
 
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class WebController 
-{
+{	
+	@Autowired
+	private NoticiasRepository Noticia;
+	
+	@Autowired
+	private EquiposRepository Equipo;
+		
 	@GetMapping("/Noticias")
-	public String MetodoNoticias()
+	public String MetodoNoticias(Model model)
 	{
+		List<noticias> noticia = Noticia.findAll();
+		model.addAttribute("NO", noticia);
 		return "Noticias";
 	}	
 	
 	@GetMapping("/Equipos")
-	public String MetodoEquipos()
+	public String MetodoEquipos(Model model)
 	{
+		List<equipos> equipo = Equipo.findAll();
+		model.addAttribute("EQ", equipo);
 		return "Equipos";
 	}	
 	

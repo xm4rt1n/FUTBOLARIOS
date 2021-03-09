@@ -1,23 +1,39 @@
 <html>
-<body>
+<body background="https://i.pinimg.com/originals/da/a6/55/daa6550f1247a73508c5560300d9d697.jpg"/>
 
-<form action="Equipos/Real Madrid">
-   <input type='submit' value='Real Madrid'/>
-</form>
-
-<form action="Equipos/Barcelona">
-   <input type='submit' value='Barcelona'/>
-</form>
-
-<form action="Equipos/Atlético de Madrid">
-   <input type='submit' value='Atlético de Madrid'/>
-</form>
-
-<form action="Equipos/Sevilla">
-   <input type='submit' value='Sevilla'/>
-</form>
+<center><table class="default" border="4" WIDTH="800">
+  <tr>
+    <th><font color="white">Escudo</font></th>
+    <th><font color="white">Nombre</font></th>
+    <th><font color="white">Número de jugadores</font></th>
+    <th><font color="white">Goles marcados</font></th>
+    <th><font color="white">Goles encajados</font></th>
+    <th><font color="white">Partidos ganados</font></th>
+    <th><font color="white">Partidos perdidos</font></th>
+    <th><font color="white">Partidos empatados</font></th>
+    <th><font color="white">Puntos</font></th>
+  </tr>
+  
+  {{#EQ}} 
+    <tr>
+    <td><img src="http://elmiradorespagnol.free.fr/futbol/original/Real%20Madrid.png" alt="" width="99" height="133"></img></td>
+    <td><font color="white">{{Nombre}}</font></td>
+    <td><font color="white">{{Num_Jugadores}}</font></td>
+    <td><font color="white">{{Goles_Marcados}}</font></td>
+    <td><font color="white">{{Goles_Encajados}}</font></td>
+    <td><font color="white">{{Partidos_Ganados}}</font></td>
+    <td><font color="white">{{Partidos_Perdidos}}</font></td>
+    <td><font color="white">{{Partidos_Empatados}}</font></td>
+    <td><font color="white">{{Puntos}}</font></td>
+    </tr>  
+  {{/EQ}}
+</table></center>
 
 <a href="/">Volver</a>
 
-<body>
+<P></P>
+<p align="right"><font color="white">c.tamaral.2018@alumnos.urjc.es</font></p>
+<p align="right"><font color="white">a.martinmar.2018@alumnos.urjc.es</font></p>
+
+</body>
 </html>
