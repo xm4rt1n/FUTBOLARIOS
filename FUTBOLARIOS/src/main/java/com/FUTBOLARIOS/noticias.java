@@ -13,7 +13,7 @@ public class noticias
     private long Codigo_Noticia;
     
     private String Nombre_Escritor;
-    private String Apellidos_Escritor;
+    private String Apellido_Escritor;
     private String Titulo;
     private String Texto;
     private String Equipo;
@@ -22,10 +22,10 @@ public class noticias
     //CONSTRUCTOR. 
     protected noticias() {}
     
-    public noticias(String Nombre, String Apellidos, String Titulo, String Texto, String Equipo, String Fecha)
+    public noticias(String Nombre, String Apellido, String Titulo, String Texto, String Equipo, String Fecha)
     {
        this.Nombre_Escritor=Nombre;
-       this.Apellidos_Escritor=Apellidos;
+       this.Apellido_Escritor=Apellido;
        this.Titulo=Titulo;
        this.Texto=Texto;
        this.Equipo=Equipo;
@@ -50,11 +50,11 @@ public class noticias
 	}
 
 	public String getApellidos_Escritor() {
-		return Apellidos_Escritor;
+		return Apellido_Escritor;
 	}
 
-	public void setApellidos_Escritor(String apellidos_Escritor) {
-		Apellidos_Escritor = apellidos_Escritor;
+	public void setApellido_Escritor(String apellido_Escritor) {
+		Apellido_Escritor = apellido_Escritor;
 	}
 
 	public String getTitulo() {
@@ -92,7 +92,7 @@ public class noticias
 	@Override
 	public String toString() {
 		return "noticias [Codigo_Noticia=" + Codigo_Noticia + ", Nombre_Escritor=" + Nombre_Escritor
-				+ ", Apellidos_Escritor=" + Apellidos_Escritor + ", Titulo=" + Titulo + ", Texto=" + Texto + ", Equipo="
+				+ ", Apellido_Escritor=" + Apellido_Escritor + ", Titulo=" + Titulo + ", Texto=" + Texto + ", Equipo="
 				+ Equipo + ", Fecha=" + Fecha + "]";
 	}
 
