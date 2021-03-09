@@ -9,6 +9,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class WebController 
@@ -27,6 +30,19 @@ public class WebController
 	{
 		List<noticias> noticia = Noticia.findAll();
 		model.addAttribute("NO", noticia);
+		return "Noticias_Menú";
+	}	
+	
+	@RequestMapping("/Noticias/Avanzado")
+	public String MetodoAvanzadoNoticias(Model model, @RequestParam String userName)
+	{	
+		List<noticias> noticia = Noticia.findAll();
+		noticias NO = new noticias(noticia.get(0).getNombre_Escritor(), noticia.get(0).getApellidos_Escritor(), userName, noticia.get(0).getTexto(), noticia.get(0).getEquipo(), noticia.get(0).getFecha());
+		if(noticia.contains(NO))
+		{   
+		   int posicion = noticia.indexOf(NO);
+		   model.addAttribute("name", noticia.get(posicion));
+		}	
 		return "Noticias";
 	}	
 	
@@ -44,7 +60,7 @@ public class WebController
 		return "Jugadores_Menú";
 	}	
 	
-	/******************* Equipos **************************/
+	/******************* EQUIPOS **************************/
 	
 	@GetMapping("/Equipos/Real Madrid")
 	public String MetodoEquipos_RealMadrid(Model model)

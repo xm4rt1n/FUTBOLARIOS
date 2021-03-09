@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface JugadoresRepository extends JpaRepository<jugadores,Integer> 
 {
+	//BUSQUEDAS PERSONALIZADAS: BUSCA JUGADORES DE DICHO EQUIPO.
 	@Query(
        value = "SELECT * FROM futbolarios.jugadores WHERE equipo = \"Barcelona\" ", 
 	   nativeQuery = true)

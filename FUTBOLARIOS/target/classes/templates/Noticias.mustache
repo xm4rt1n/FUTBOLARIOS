@@ -1,33 +1,17 @@
 <html>
 <body background="https://i.pinimg.com/originals/da/a6/55/daa6550f1247a73508c5560300d9d697.jpg"/>
 
-<center><a style="font-size:600%"><font color="white">NOTICIAS</font></a></center>
+<center><a style="font-size:600%"><font color="white">{{name.Titulo}}</font></a></center>
 <p style="font-size:400%"></p>
 
-<center><table class="default" border="4" WIDTH="800">
-  <tr>
-    <th><font color="white">Nombre Escritor</font></th>
-    <th><font color="white">Apellidos Escritor</font></th>
-    <th><font color="white">Titulo</font></th>
-    <th><font color="white">Texto</font></th>
-    <th><font color="white">Equipo</font></th>
-    <th><font color="white">Fecha</font></th> 
-  </tr>
-  
-  {{#NO}} 
-    <tr>
-    <td><font color="white">{{Nombre_Escritor}}</font></td>
-    <td><font color="white">{{Apellidos_Escritor}}</font></td>
-    <td><font color="white">{{Titulo}}</font></td>
-    <td><font color="white">{{Texto}}</font></td>
-    <td><font color="white">{{Equipo}}</font></td>
-    <td><font color="white">{{Fecha}}</font></td>
-    </tr>  
-  {{/NO}}
-</table></center>
+<center><a style="font-size:200%"><font color="white">{{name.Texto}}</font></a></center>
+<p align="right"><font color="white">Nombre del autor: {{name.Nombre_Escritor}}</font></p>
+<p align="right"><font color="white">Apellidos del autor: {{name.Apellidos_Escritor}}</font></p>
+<p align="right"><font color="white">Fecha: {{name.Fecha}}</font></p>
 
 <p style="font-size:600%"></p>
-<a align="left" href="/"><input type='submit' value='Volver'/></a>
+<a href="/"><input type='submit' value='Volver al menú principal'/></a>
+<a href="/Noticias"><input type='submit' value='Volver al menú de noticias'/></a>
 <a><font color="white"> &nbsp Contacto: </font></a>
 <a><font color="white"> &nbsp c.tamaral.2018@alumnos.urjc.es</font></a>
 <a align="right"><font color="white"> &nbsp a.martinmar.2018@alumnos.urjc.es</font></a>
