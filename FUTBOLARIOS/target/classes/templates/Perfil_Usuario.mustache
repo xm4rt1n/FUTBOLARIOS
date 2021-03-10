@@ -1,0 +1,34 @@
+<html>
+<body background="https://i.pinimg.com/originals/da/a6/55/daa6550f1247a73508c5560300d9d697.jpg"/>
+
+<center><a style="font-size:600%"><font color="white">Mi perfil</font></a></center>
+<p style="font-size:400%"></p>
+
+<p ><font color="white">Apodo: {{usuario.Apodo}}</font><p>
+<p ><font color="white">Nombre: {{usuario.Nombre}}</font><p>
+<p ><font color="white">Apellidos: {{usuario.Apellidos}}</font><p>
+<p ><font color="white">Edad: {{usuario.Edad}}</font><p>
+<p ><font color="white">Correo: {{usuario.Correo}}</font><p>
+<p ><font color="white">Contraseña: {{usuario.Contraseña}}</font><p>
+<p ><font color="white">Equipo favorito: {{usuario.Equipo_Favorito}}</font><p>
+
+<a ><center><font color="white">* Si desea eliminar el perfil pulse el botón {{usuario.Apodo}}.</font></center><a>
+<center><form action="Avanzado/EliminarPerfil">
+   <input type='submit' value='{{usuario.Apodo}}' name='apodo' />
+</form></center>
+<p style="font-size:100%">&nbsp</p>
+<a ><center><font color="white">* Si desea modificar el perfil pulse el botón {{usuario.Apodo}}.</font></center><a>
+<center><form action="Avanzado/ModificarPerfil">
+   <input type='submit' value='{{usuario.Apodo}}' name='apodo' />
+</form></center>
+<p style="font-size:100%">&nbsp</p>
+<p style="font-size:100%"><center><font color="red">NOTA: Si eliminas el perfil será de manera irreversible.</font></center></p>
+
+<p style="font-size:100%"></p>
+<a href="/"><input type='submit' value='Cerrar sesión'/></a>
+<a><font color="white"> &nbsp Contacto: </font></a>
+<a><font color="white"> &nbsp c.tamaral.2018@alumnos.urjc.es</font></a>
+<a align="right"><font color="white"> &nbsp a.martinmar.2018@alumnos.urjc.es</font></a>
+
+</body>
+</html>

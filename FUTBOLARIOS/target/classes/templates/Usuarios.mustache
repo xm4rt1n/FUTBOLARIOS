@@ -1,18 +1,16 @@
 <html>
 <body background="https://i.pinimg.com/originals/da/a6/55/daa6550f1247a73508c5560300d9d697.jpg"/>
 
-<center><a style="font-size:600%"><font color="white">EQUIPOS</font></a></center>
+<center><a style="font-size:600%"><font color="white">Usuarios</font></a></center>
 <p style="font-size:400%"></p>
 
-{{#EQ}} 
-  <tr>
-  <center><form action="Jugadores/Avanzado" method="post">
-     <input type='submit' value='{{Nombre}}' name='userName' style='width:210px; height:75px' />
-  </form></center>
-  <p></p>
-  </tr>  
-{{/EQ}}
- 
+<center><form action="Usuario/IniciarSesion">
+   <input type='submit' value='Iniciar sesion' style='width:210px; height:75px' />
+</form></center>
+<center><form action="Usuario/Registrarse">
+   <input type='submit' value='Registrarse' style='width:210px; height:75px' />
+</form></center>
+
 <p style="font-size:600%"></p>
 <a align="left" href="/"><input type='submit' value='Volver'/></a>
 <a><font color="white"> &nbsp Contacto: </font></a>

@@ -53,7 +53,7 @@ public class noticias
 		return Apellidos_Escritor;
 	}
 
-	public void setApellido_Escritor(String apellidos_Escritor) {
+	public void setApellidos_Escritor(String apellidos_Escritor) {
 		Apellidos_Escritor = apellidos_Escritor;
 	}
 
