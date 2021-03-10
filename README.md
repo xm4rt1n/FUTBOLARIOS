@@ -80,7 +80,33 @@ Accedemos a esta pantalla desde la pantalla principal, en ella podemos ver los d
 Una vez elegimos la notcia que queremos ver en la portada de noticias, accedemos a esta pantalla, donde en función de la noticia que hayamos clicado nos aparecera reflejada con su respectivo contenido, tambien se puede observar el autor de la noticia y la fecha. En la parte inferior encontramos dos botnes, uno nos permite volver a la portada de notcias y el otro nos permite vovler a la pantalla principal
 
 ## Menu de jugaodres
-![menu de jugadores](https://user-images.githubusercontent.com/77276107/110666485-ab765280-81c9-11eb-9987-6d0114897e1a.png)
+![menu de jugadores](https://user-images.githubusercontent.com/77276107/110694050-70374c00-81e8-11eb-8022-6cbdf14de77e.png)
 
 A esta pantalla se accede desde la pantalla principal, aqui podremos elegir el equipo del cual queremos ver los jugadores
+
+## Pantalla de usuarios
+![Pantalla usuarios](https://user-images.githubusercontent.com/77276107/110694453-e63bb300-81e8-11eb-8cac-37da8404b22d.png)
+
+Si en la pantalla de inicio seleccionamos el boton "Usuario" accedemos a esta pantalla, la cual nos da dos opciones iniciar sesion o registartrse
+
+## Pantalla de inicio de sesion
+![inicio de sesion](https://user-images.githubusercontent.com/77276107/110695199-dbcde900-81e9-11eb-8a6e-ce5b048ba1cc.png)
+
+Al presionar en inciar sesion llegamos a esta pantalla en la que nos encontramos con dos campos que han de ser rellenados, el apodo y la contraseña
+
+## Mi perfil
+![mi perfil](https://user-images.githubusercontent.com/77276107/110696142-03718100-81eb-11eb-98dd-25f55fd4cc53.png)
+
+Si ya estamos registrados accedemos a la pantalla de perfil en la cual apareceran nuestros datos
+
+## Pantalla de registro
+![registro](https://user-images.githubusercontent.com/77276107/110695849-a70e6180-81ea-11eb-853e-f40e9e728c10.png)
+
+Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todos los datos de usuario.
+
+## Registro finalizado
+![usuario registrado](https://user-images.githubusercontent.com/77276107/110696255-22701300-81eb-11eb-8e50-c661dd257a99.png)
+
+Una vez registrado el usuario nos aparece una pantalla de confirmacion.
+
 
