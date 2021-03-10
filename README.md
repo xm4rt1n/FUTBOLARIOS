@@ -112,3 +112,7 @@ Una vez registrado el usuario nos aparece una pantalla de confirmacion.
 
 # Diagrama Entidad/Relacion
 ![mapa](https://user-images.githubusercontent.com/77276107/110708820-8e5a7780-81fb-11eb-9f82-32a43f6fa9e4.png)
+
+# Mapa de navegacióm
+![oaginas](https://user-images.githubusercontent.com/77276107/110710264-da0e2080-81fd-11eb-8027-028ba12d8ccb.png)
+
