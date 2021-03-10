@@ -110,3 +110,5 @@ Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todo
 Una vez registrado el usuario nos aparece una pantalla de confirmacion.
 
 
+# Diagrama Entidad/Relacion
+![mapa](https://user-images.githubusercontent.com/77276107/110708820-8e5a7780-81fb-11eb-9f82-32a43f6fa9e4.png)
