@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class WebController 
 {	
+	//AUTOWIRED
 	@Autowired
 	private NoticiasRepository Noticia;
 	
@@ -27,6 +28,9 @@ public class WebController
 	
 	@Autowired
 	private UsuariosRepository Usuario;
+	
+	@Autowired
+	private MensajesRepository Mensaje;
 		
 	//NOTICIAS
 	@GetMapping("/Noticias")
@@ -290,4 +294,65 @@ public class WebController
 	 	
 	   return "DatosModificados";
 	}
+	
+	//FORO
+	@GetMapping("/Foro")
+	public String MetodoForo()
+	{
+		return "Iniciar_SesionForo";
+	}
+	
+	@RequestMapping("/Foro/IniciarSesionForo")
+	public String MetodoForoIniciarSesion(Model model, @RequestParam String apodo, @RequestParam String contraseña)
+	{		
+		List<usuarios> usuario = Usuario.findAll();
+		usuarios US = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito");
+		
+		if(usuario.contains(US))
+		{   
+			usuarios US2 = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito");
+			
+		    int index = usuario.indexOf(US);
+		    US = usuario.get(index);
+			
+			if(US.getContraseña().equals(US2.getContraseña()))
+			{
+			   List<mensajes> Mensajes = Mensaje.findAll();
+			   model.addAttribute("usuario", US);
+			   model.addAttribute("mensajes", Mensajes);
+			   return "Foro";
+			}
+			else
+			{
+			   return "ErrorContraseñaForo";
+			}
+		}	
+		else
+		{
+			model.addAttribute("usuario", apodo);
+			return "ErrorApodoForo";
+		}	
+	}
+	
+	@PostMapping("/Foro/IniciarSesionForo/Actualizada")
+	public String MetodoForoIniciarSesionActualizada(Model model, @RequestParam String mensaje)
+	{
+		mensajes MN = new mensajes("PEPE",mensaje,"2021-03-09");
+		Mensaje.save(MN);
+		
+		List<mensajes> Mensajes = Mensaje.findAll();
+	    model.addAttribute("mensajes", Mensajes);
+		return "redirect:/Foro/IniciarSesionForo";
+	}	
+	
+	@RequestMapping("/Foro/IniciarSesionForo/Actualizada/2")
+	public String MetodoForoIniciarSesionActualizada2(Model model, @RequestParam String mensaje)
+	{
+		mensajes MN = new mensajes("PEPE",mensaje,"2021-03-09");
+		Mensaje.save(MN);
+		
+		List<mensajes> Mensajes = Mensaje.findAll();
+	    model.addAttribute("mensajes", Mensajes);
+		return "Foro2";
+	}	
 }

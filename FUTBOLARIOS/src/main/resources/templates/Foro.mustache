@@ -1,30 +1,35 @@
 <html>
 <body background="https://i.pinimg.com/originals/da/a6/55/daa6550f1247a73508c5560300d9d697.jpg"/>
+
 <center><a style="font-size:600%"><font color="white">FORO</font></a></center>
 <p style="font-size:400%"></p>
 
-<center><table class="default" border="4" WIDTH="800" cellspacing="25">
-
-  {{#ME}} 
+<center><table class="default" border="4" WIDTH="800">
+  <tr>
+    <th><font color="white">Apodo</font></th>
+    <th><font color="white">Mensaje</font></th>
+    <th><font color="white">Fecha</font></th>
+  </tr>
+  
+  {{#mensajes}} 
     <tr>
-    <td><font color="white"><FONT SIZE=5> {{Autor_Mensaje}} </FONT SIZE> <FONT SIZE=2>{{Fecha}} <FONT SIZE> <br>
-    <FONT SIZE=4>{{Contenido_Mensaje}}</FONT SIZE></font></td>
+    <td><center><font color="white">{{Apodo}} :</font></center></td>
+    <td><center><font color="white">{{Texto}}</font></center></td>
+    <td><center><font color="white">{{Fecha}}</font></center></td> 
     </tr>  
-  {{/ME}}
-
+  {{/mensajes}}
 </table></center>
-<center>
 
-<form action="Foro">
-<input type='text' name='mensajeNuevo'/>
-<input type='submit' value='Enviar'/>
+<center><form action="IniciarSesionForo/Actualizada" method="post">
+   <p><font color="white"> Escribir mensaje: </font></p>
+   <input type = 'text' name = 'mensaje' required> 
+</form></center>
 
-</center>
-<a href="/">Volver</a>
-
-<P></P>
-<p align="right"><font color="white">c.tamaral.2018@alumnos.urjc.es</font></p>
-<p align="right"><font color="white">a.martinmar.2018@alumnos.urjc.es</font></p>
+<p style="font-size:600%"></p>
+<a align="left" href="/"><input type='submit' value='Cerrar sesión y salir del foro'/></a>
+<a><font color="white"> &nbsp Contacto: </font></a>
+<a><font color="white"> &nbsp c.tamaral.2018@alumnos.urjc.es</font></a>
+<a align="right"><font color="white"> &nbsp a.martinmar.2018@alumnos.urjc.es</font></a>
 
 </body>
 </html>
