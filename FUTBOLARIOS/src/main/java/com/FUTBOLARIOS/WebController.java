@@ -1,6 +1,8 @@
 package com.FUTBOLARIOS;
 
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -302,7 +304,7 @@ public class WebController
 		return "Iniciar_SesionForo";
 	}
 	
-	@RequestMapping("/Foro/IniciarSesionForo")
+	@PostMapping("/Foro/IniciarSesionForo")
 	public String MetodoForoIniciarSesion(Model model, @RequestParam String apodo, @RequestParam String contraseña)
 	{		
 		List<usuarios> usuario = Usuario.findAll();
@@ -334,25 +336,18 @@ public class WebController
 		}	
 	}
 	
-	@PostMapping("/Foro/IniciarSesionForo/Actualizada")
-	public String MetodoForoIniciarSesionActualizada(Model model, @RequestParam String mensaje)
-	{
-		mensajes MN = new mensajes("PEPE",mensaje,"2021-03-09");
-		Mensaje.save(MN);
-		
-		List<mensajes> Mensajes = Mensaje.findAll();
-	    model.addAttribute("mensajes", Mensajes);
-		return "redirect:/Foro/IniciarSesionForo";
-	}	
 	
-	@RequestMapping("/Foro/IniciarSesionForo/Actualizada/2")
-	public String MetodoForoIniciarSesionActualizada2(Model model, @RequestParam String mensaje)
+	@PostMapping("/Foro/IniciarSesionForo/Actualizada")
+	public String MetodoForoIniciarSesionActualizada(Model model, @RequestParam String mensaje, @RequestParam String apodo)
 	{
-		mensajes MN = new mensajes("PEPE",mensaje,"2021-03-09");
+		SimpleDateFormat formatofecha = new SimpleDateFormat("yyyy-MM-dd");
+		Date fecha = new Date();
+		mensajes MN = new mensajes(apodo,mensaje,formatofecha.format(fecha));
+		
 		Mensaje.save(MN);
 		
-		List<mensajes> Mensajes = Mensaje.findAll();
-	    model.addAttribute("mensajes", Mensajes);
-		return "Foro2";
+	    return "ComentarioRealizado";
+		
 	}	
+
 }

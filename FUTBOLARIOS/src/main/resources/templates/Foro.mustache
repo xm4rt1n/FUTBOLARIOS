@@ -20,9 +20,16 @@
   {{/mensajes}}
 </table></center>
 
+<p style="font-size:200%"></p>
+
 <center><form action="IniciarSesionForo/Actualizada" method="post">
-   <p><font color="white"> Escribir mensaje: </font></p>
-   <input type = 'text' name = 'mensaje' required> 
+   <a><font color="white"> Añadir comentario: </font></a>
+   <input type = 'text' name = 'mensaje' style='width:600px; height:60px'required> 
+   <p></p>
+   <a><font color="white"> Comentario firmado con su apodo: </font></a>
+   <input type='checkbox' value='{{usuario.Apodo}}' name='apodo' required>
+   <p></p>
+   <input type = 'submit' value = 'Enviar'>
 </form></center>
 
 <p style="font-size:600%"></p>
