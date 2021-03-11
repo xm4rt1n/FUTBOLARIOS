@@ -26,15 +26,12 @@ public class equipos
 	 private int Partidos_Perdidos;
 	 private int Partidos_Empatados;
 	 private int Puntos;
-	 
-	 @Lob
-	 @JsonIgnore
-	 private Blob Imagen;
+	 private String Imagen;
 	 
 	 //CONSTRUCTOR. 
 	 protected equipos() {}
 	    
-	 public equipos(int NJ, int GM, int GE, int PG, int PP, int PE, int PU, Blob IM)
+	 public equipos(int NJ, int GM, int GE, int PG, int PP, int PE, int PU, String IM)
 	 {
 	    this.Num_Jugadores=NJ;
 	    this.Goles_Marcados=GM;
@@ -111,11 +108,11 @@ public class equipos
 		Puntos = puntos;
 	}
 
-	public Blob getImagen() {
+	public String getImagen() {
 		return Imagen;
 	}
 
-	public void setImagen(Blob imagen) {
+	public void setImagen(String imagen) {
 		Imagen = imagen;
 	}
 
