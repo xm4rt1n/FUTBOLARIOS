@@ -67,7 +67,7 @@ Cristofer Tamaral Martin	 c.tamaral.2018@alumnos.urjc.es
 ## Pantalla principal.
 ![1](https://user-images.githubusercontent.com/78878606/110747488-c040fd80-823e-11eb-80cb-10b5997a9b9e.png)
 
-En ella encontramos las distintas opciones donde podemos ver las distintas secciones a las que podemos acceder
+En ella encontramos las distintas opciones donde podemos ver las distintas secciones a las que podemos acceder.
 
 ## Portada de noticias.
 ![2](https://user-images.githubusercontent.com/78878606/110747593-e4044380-823e-11eb-86c0-2aa89d72de73.png)
@@ -77,12 +77,22 @@ Accedemos a esta pantalla desde la pantalla principal, en ella podemos ver los d
 ## Cuerpo de la noticia.
 ![3](https://user-images.githubusercontent.com/78878606/110747636-f4b4b980-823e-11eb-83c4-79b343c90684.jpg)
 
-Una vez elegimos la notcia que queremos ver en la portada de noticias, accedemos a esta pantalla, donde en función de la noticia que hayamos clicado nos aparecera reflejada con su respectivo contenido, tambien se puede observar el autor de la noticia y la fecha. En la parte inferior encontramos dos botnes, uno nos permite volver a la portada de notcias y el otro nos permite vovler a la pantalla principal
+Una vez elegimos la notcia que queremos ver en la portada de noticias, accedemos a esta pantalla, donde en función de la noticia que hayamos clicado nos aparecera reflejada con su respectivo contenido, tambien se puede observar el autor de la noticia y la fecha. En la parte inferior encontramos dos botnes, uno nos permite volver a la portada de notcias y el otro nos permite vovler a la pantalla principal.
 
-## Menu de jugaodres
-![menu de jugadores](https://user-images.githubusercontent.com/77276107/110694050-70374c00-81e8-11eb-8022-6cbdf14de77e.png)
+## Pantalla de estadísticas de equipos.
+![4](https://user-images.githubusercontent.com/78878606/110747878-42312680-823f-11eb-85a4-166beddbbfc4.png)
 
-A esta pantalla se accede desde la pantalla principal, aqui podremos elegir el equipo del cual queremos ver los jugadores
+En dicha página se podrán ver las estadísticas de los equipos.
+
+## Menu de jugadores.
+![5](https://user-images.githubusercontent.com/78878606/110748018-77d60f80-823f-11eb-8f2b-6ddff7fd43ff.png)
+
+A esta pantalla se accede desde la pantalla principal, aqui podremos elegir el equipo del cual queremos ver los jugadores.
+
+## Estadísticas de jugadores del equipo selecionado.
+![6](https://user-images.githubusercontent.com/78878606/110748156-9dfbaf80-823f-11eb-99b2-80d64dbbb121.png)
+
+Se puede visualizar todos los  valores guardado de cada jugador.
 
 ## Pantalla de usuarios
 ![Pantalla usuarios](https://user-images.githubusercontent.com/77276107/110694453-e63bb300-81e8-11eb-8cac-37da8404b22d.png)
