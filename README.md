@@ -111,7 +111,9 @@ Una vez registrado el usuario nos aparece una pantalla de confirmacion.
 
 # Mapa de navegación
 
+![Esquema](https://user-images.githubusercontent.com/78878606/110747043-06e22800-823e-11eb-84df-5b202d3d8040.png)
 
+No están todas las pantallas porque no entran en la imagen  pero están las pantallas principales.
 # Diagrama Entidad-Relación
 
 ![Diagama ER](https://user-images.githubusercontent.com/78878606/110738097-f6768100-822e-11eb-9152-4fe0a3dbb720.jpg)
