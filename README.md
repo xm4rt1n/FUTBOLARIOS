@@ -118,10 +118,15 @@ En ella se podra modificar cualquier campo de tu perfil.
 
 Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todos los datos de usuario.
 
-## Registro finalizado
-![usuario registrado](https://user-images.githubusercontent.com/77276107/110696255-22701300-81eb-11eb-8e50-c661dd257a99.png)
+## Pantalla de inicio sesión en foro.
+![17](https://user-images.githubusercontent.com/78878606/110749429-7279c480-8241-11eb-9340-5122810967e7.png)
 
-Una vez registrado el usuario nos aparece una pantalla de confirmacion.
+Se podrá inic sesión para acceder al foro.
+
+## Pantalla de foro.
+![20](https://user-images.githubusercontent.com/78878606/110749556-90472980-8241-11eb-876b-45a9b84450a2.png)
+
+En la pantalla foro se podrá ver los comentarios y escribir uno.
 
 # Mapa de navegación.
 
