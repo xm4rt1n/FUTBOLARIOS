@@ -110,7 +110,7 @@ Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todo
 Una vez registrado el usuario nos aparece una pantalla de confirmacion.
 
 # Mapa de navegación
-![oaginas](https://user-images.githubusercontent.com/77276107/110710264-da0e2080-81fd-11eb-8027-028ba12d8ccb.png)
+
 
 # Diagrama Entidad-Relación
 
