@@ -125,7 +125,7 @@ public class WebController
 	public String MetodoAvanzadoRegistrarse(Model model, @RequestParam String apodo, @RequestParam String nombre, @RequestParam String apellido, @RequestParam int edad, @RequestParam String correo, @RequestParam String contraseña, @RequestParam String equipofavorito)
 	{	
 		List<usuarios> usuario = Usuario.findAll();
-		usuarios US = new usuarios(apodo,nombre,apellido,edad,correo,contraseña,equipofavorito);
+		usuarios US = new usuarios(apodo,nombre,apellido,edad,correo,contraseña,equipofavorito,equipofavorito);
 		
 		if(usuario.contains(US))
 		{   
@@ -149,11 +149,11 @@ public class WebController
 	public String MetodoAvanzadoIniciarSesion(Model model, @RequestParam String apodo, @RequestParam String contraseña)
 	{		
 		List<usuarios> usuario = Usuario.findAll();
-		usuarios US = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito");
+		usuarios US = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito","equipofavorito");
 		
 		if(usuario.contains(US))
 		{   
-			usuarios US2 = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito");
+			usuarios US2 = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito","equipofavorito");
 			
 		    int index = usuario.indexOf(US);
 		    US = usuario.get(index);
@@ -196,49 +196,49 @@ public class WebController
 	   if(!apodonuevo.isEmpty())
 	   {
 		  usuarios AU = Usuario.getOne(apodoantiguo);
-		  usuarios UC = new usuarios(apodonuevo,AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+		  usuarios UC = new usuarios(apodonuevo,AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 		  Usuario.deleteById(apodoantiguo);
 		  Usuario.save(UC); 
 		  
 		  if(!nombre.isEmpty())
 		   {
 			  AU = Usuario.getOne(apodonuevo);
-			  UC = new usuarios(AU.getApodo(),nombre,AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+			  UC = new usuarios(AU.getApodo(),nombre,AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			  Usuario.deleteById(apodonuevo);
 			  Usuario.save(UC);   
 		   }	   
 		   if(!apellido.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodonuevo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),apellido,AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),apellido,AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodonuevo);
 			   Usuario.save(UC);     
 		   }
 		   if(edad!=Usuario.getOne(apodonuevo).getEdad())
 		   {
 			   AU = Usuario.getOne(apodonuevo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),edad,AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),edad,AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodonuevo);
 			   Usuario.save(UC);     
 		   }
 		   if(!correo.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodonuevo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),correo,AU.getContraseña(),AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),correo,AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodonuevo);
 			   Usuario.save(UC);     
 		   }
 		   if(!contraseña.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodonuevo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),contraseña,AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),contraseña,AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodonuevo);
 			   Usuario.save(UC);     
 		   }
 		   if(!equipofavorito.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodonuevo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),equipofavorito);
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),equipofavorito,equipofavorito);
 			   Usuario.deleteById(apodonuevo);
 			   Usuario.save(UC);     
 		   }	   
@@ -246,49 +246,49 @@ public class WebController
 	   else
 	   {
 		   usuarios AU = Usuario.getOne(apodoantiguo);
-		   usuarios UC = new usuarios(apodoantiguo,AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+		   usuarios UC = new usuarios(apodoantiguo,AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 		   Usuario.deleteById(apodoantiguo);
 		   Usuario.save(UC); 
 			  
 		   if(!nombre.isEmpty())
 		   {
 			  AU = Usuario.getOne(apodoantiguo);
-			  UC = new usuarios(AU.getApodo(),nombre,AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+			  UC = new usuarios(AU.getApodo(),nombre,AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			  Usuario.deleteById(apodoantiguo);
 			  Usuario.save(UC);   
 		   }	   
 		   if(!apellido.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodoantiguo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),apellido,AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),apellido,AU.getEdad(),AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodoantiguo);
 			   Usuario.save(UC);     
 		   }
 		   if(edad!=Usuario.getOne(apodoantiguo).getEdad())
 		   {
 			   AU = Usuario.getOne(apodoantiguo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),edad,AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),edad,AU.getCorreo(),AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodoantiguo);
 			   Usuario.save(UC);     
 		   }
 		   if(!correo.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodoantiguo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),correo,AU.getContraseña(),AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),correo,AU.getContraseña(),AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodoantiguo);
 			   Usuario.save(UC);     
 		   }
 		   if(!contraseña.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodoantiguo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),contraseña,AU.getEquipo_Favorito());
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),contraseña,AU.getEquipo_Favorito(),AU.getEquipo_Favorito());
 			   Usuario.deleteById(apodoantiguo);
 			   Usuario.save(UC);     
 		   }
 		   if(!equipofavorito.isEmpty())
 		   {
 			   AU = Usuario.getOne(apodoantiguo);
-			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),equipofavorito);
+			   UC = new usuarios(AU.getApodo(),AU.getNombre(),AU.getApellidos(),AU.getEdad(),AU.getCorreo(),AU.getContraseña(),equipofavorito,equipofavorito);
 			   Usuario.deleteById(apodoantiguo);
 			   Usuario.save(UC);     
 		   }	   	   
@@ -308,11 +308,11 @@ public class WebController
 	public String MetodoForoIniciarSesion(Model model, @RequestParam String apodo, @RequestParam String contraseña)
 	{		
 		List<usuarios> usuario = Usuario.findAll();
-		usuarios US = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito");
+		usuarios US = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito","equipofavorito");
 		
 		if(usuario.contains(US))
 		{   
-			usuarios US2 = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito");
+			usuarios US2 = new usuarios(apodo,"nombre","apellido",0,"correo",contraseña,"equipofavorito","equipofavorito");
 			
 		    int index = usuario.indexOf(US);
 		    US = usuario.get(index);

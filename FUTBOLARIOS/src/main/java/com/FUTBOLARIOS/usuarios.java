@@ -24,11 +24,12 @@ public class usuarios
 	 private String Correo;
 	 private String Contraseña;
 	 private String Equipo_Favorito;
+	 private String equipos_nombre;
 	 
 	//CONSTRUCTOR. 
     protected usuarios() {}
 		    
-	public usuarios(String ID, String NM, String AP, int ED, String CR, String CN, String EF)
+	public usuarios(String ID, String NM, String AP, int ED, String CR, String CN, String EF, String EN)
 	{
 	   this.Apodo=ID;
        this.Nombre=NM;
@@ -37,6 +38,7 @@ public class usuarios
        this.Correo=CR;
        this.Contraseña=CN;
        this.Equipo_Favorito=EF;
+       this.equipos_nombre=EN;
 	}
 
 	//GETTERS, SETTERS y TOSTRING
@@ -96,10 +98,19 @@ public class usuarios
 		Equipo_Favorito = equipo_Favorito;
 	}
 
+	public String getEquipos_nombre() {
+		return equipos_nombre;
+	}
+
+	public void setEquipos_nombre(String equipos_nombre) {
+		this.equipos_nombre = equipos_nombre;
+	}
+
 	@Override
 	public String toString() {
 		return "usuarios [Apodo=" + Apodo + ", Nombre=" + Nombre + ", Apellidos=" + Apellidos + ", Edad=" + Edad
-				+ ", Correo=" + Correo + ", Contraseña=" + Contraseña + ", Equipo_Favorito=" + Equipo_Favorito + "]";
+				+ ", Correo=" + Correo + ", Contraseña=" + Contraseña + ", Equipo_Favorito=" + Equipo_Favorito
+				+ ", equipos_nombre=" + equipos_nombre + "]";
 	}
 
 	//HASHCODE Y EQUALS
