@@ -109,10 +109,10 @@ Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todo
 
 Una vez registrado el usuario nos aparece una pantalla de confirmacion.
 
-
-# Diagrama Entidad/Relacion
-![mapa](https://user-images.githubusercontent.com/77276107/110708820-8e5a7780-81fb-11eb-9f82-32a43f6fa9e4.png)
-
-# Mapa de navegacióm
+# Mapa de navegación
 ![oaginas](https://user-images.githubusercontent.com/77276107/110710264-da0e2080-81fd-11eb-8027-028ba12d8ccb.png)
+
+# Diagrma Entidad-Relación
+
+![Diagama ER](https://user-images.githubusercontent.com/78878606/110733703-b7443200-8226-11eb-9b2e-23281e629d53.jpg)
 
