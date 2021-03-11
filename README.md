@@ -94,23 +94,27 @@ A esta pantalla se accede desde la pantalla principal, aqui podremos elegir el e
 
 Se puede visualizar todos los  valores guardado de cada jugador.
 
-## Pantalla de usuarios
-![Pantalla usuarios](https://user-images.githubusercontent.com/77276107/110694453-e63bb300-81e8-11eb-8cac-37da8404b22d.png)
+## Pantalla de usuarios.
+![7](https://user-images.githubusercontent.com/78878606/110748667-588bb200-8240-11eb-9b04-f1c3abb4e3f4.png)
 
-Si en la pantalla de inicio seleccionamos el boton "Usuario" accedemos a esta pantalla, la cual nos da dos opciones iniciar sesion o registartrse
+Si en la pantalla de inicio seleccionamos el boton "Usuario" accedemos a esta pantalla, la cual nos da dos opciones iniciar sesion o registartrse.
 
-## Pantalla de inicio de sesion
-![inicio de sesion](https://user-images.githubusercontent.com/77276107/110695199-dbcde900-81e9-11eb-8a6e-ce5b048ba1cc.png)
+## Pantalla de inicio de sesión.
+![10](https://user-images.githubusercontent.com/78878606/110748765-7d802500-8240-11eb-8ad8-cda72d846e37.jpg)
 
-Al presionar en inciar sesion llegamos a esta pantalla en la que nos encontramos con dos campos que han de ser rellenados, el apodo y la contraseña
+Al presionar en inciar sesion llegamos a esta pantalla en la que nos encontramos con dos campos que han de ser rellenados, el apodo y la contraseña.
 
-## Mi perfil
-![mi perfil](https://user-images.githubusercontent.com/77276107/110696142-03718100-81eb-11eb-98dd-25f55fd4cc53.png)
+## Mi perfil.
+![13](https://user-images.githubusercontent.com/78878606/110749051-df408f00-8240-11eb-80b9-a82aee85e818.png)
 
-Si ya estamos registrados accedemos a la pantalla de perfil en la cual apareceran nuestros datos
+Si ya estamos registrados accedemos a la pantalla de perfil en la cual apareceran nuestros datos.
 
-## Pantalla de registro
-![registro](https://user-images.githubusercontent.com/77276107/110695849-a70e6180-81ea-11eb-853e-f40e9e728c10.png)
+## Pantalla de modificar datos.
+![14](https://user-images.githubusercontent.com/78878606/110749197-13b44b00-8241-11eb-97bc-8c61a18fe26d.png)
+En ella se podra modificar cualquier campo de tu perfil.
+
+## Pantalla de registro.
+![8](https://user-images.githubusercontent.com/78878606/110749121-f67f7c80-8240-11eb-9be5-c0dd34ce7502.jpg)
 
 Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todos los datos de usuario.
 
