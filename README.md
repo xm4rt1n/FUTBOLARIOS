@@ -62,20 +62,20 @@ Cristofer Tamaral Martin	 c.tamaral.2018@alumnos.urjc.es
 
 
 
-# Pantallas y descripcion
+# Pantallas y descripción.
 
-## Pantalla principal
-![pantalla principal](https://user-images.githubusercontent.com/77276107/110661461-e1650800-81c4-11eb-98e6-76cea64df23a.png)
+## Pantalla principal.
+![1](https://user-images.githubusercontent.com/78878606/110747488-c040fd80-823e-11eb-80cb-10b5997a9b9e.png)
 
 En ella encontramos las distintas opciones donde podemos ver las distintas secciones a las que podemos acceder
 
-## Portada de noticias
-![portada de noticias](https://user-images.githubusercontent.com/77276107/110661809-36088300-81c5-11eb-94cf-c0dd837ac64b.png)
+## Portada de noticias.
+![2](https://user-images.githubusercontent.com/78878606/110747593-e4044380-823e-11eb-86c0-2aa89d72de73.png)
 
 Accedemos a esta pantalla desde la pantalla principal, en ella podemos ver los distintos titulos de las notcias sobre los cuales podremos clicar para acceder a ellas. Tambien encontramos un boton "Volver" para regresar a la pantalla principal.
 
-## Cuerpo de la noticia
-![Noticia cuerrpo](https://user-images.githubusercontent.com/77276107/110663035-63a1fc00-81c6-11eb-8326-a574ee838a50.png)
+## Cuerpo de la noticia.
+![3](https://user-images.githubusercontent.com/78878606/110747636-f4b4b980-823e-11eb-83c4-79b343c90684.jpg)
 
 Una vez elegimos la notcia que queremos ver en la portada de noticias, accedemos a esta pantalla, donde en función de la noticia que hayamos clicado nos aparecera reflejada con su respectivo contenido, tambien se puede observar el autor de la noticia y la fecha. En la parte inferior encontramos dos botnes, uno nos permite volver a la portada de notcias y el otro nos permite vovler a la pantalla principal
 
@@ -109,12 +109,12 @@ Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todo
 
 Una vez registrado el usuario nos aparece una pantalla de confirmacion.
 
-# Mapa de navegación
+# Mapa de navegación.
 
 ![Esquema](https://user-images.githubusercontent.com/78878606/110747043-06e22800-823e-11eb-84df-5b202d3d8040.png)
 
 No están todas las pantallas porque no entran en la imagen  pero están las pantallas principales.
-# Diagrama Entidad-Relación
+# Diagrama Entidad-Relación.
 
 ![Diagama ER](https://user-images.githubusercontent.com/78878606/110738097-f6768100-822e-11eb-9152-4fe0a3dbb720.jpg)
 
