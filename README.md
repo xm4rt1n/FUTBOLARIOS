@@ -183,6 +183,16 @@ Se podrá eliminar los jugadores seleccionados.
 
 Se podrá crear un jugador rellenando los campos.
 
+## Eliminar usuarios.
+![26](https://user-images.githubusercontent.com/78878606/111601472-ad946e80-87d2-11eb-8aee-3d75288a4160.png)
+
+En esta pantalla se puede eliminar cualquier usuar seleci.
+
+## Eliminar mensajes del foro.
+![25](https://user-images.githubusercontent.com/78878606/111601581-cb61d380-87d2-11eb-8565-5ec83d3a1bf8.png)
+
+En esta pantalla se puede eliminar mensajes del foro.
+
 # Mapa de navegación.
 Usuario:
 ![Esquema](https://user-images.githubusercontent.com/78878606/110747043-06e22800-823e-11eb-84df-5b202d3d8040.png)
