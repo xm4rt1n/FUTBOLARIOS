@@ -65,7 +65,7 @@ Cristofer Tamaral Martin	 c.tamaral.2018@alumnos.urjc.es
 # Pantallas y descripción.
 
 ## Pantalla principal.
-![1](https://user-images.githubusercontent.com/78878606/110747488-c040fd80-823e-11eb-80cb-10b5997a9b9e.png)
+![22](https://user-images.githubusercontent.com/78878606/111599144-437aca00-87d0-11eb-91b9-c659a8483d06.png)
 
 En ella encontramos las distintas opciones donde podemos ver las distintas secciones a las que podemos acceder.
 
@@ -127,6 +127,31 @@ Se podrá inic sesión para acceder al foro.
 ![20](https://user-images.githubusercontent.com/78878606/110749556-90472980-8241-11eb-876b-45a9b84450a2.png)
 
 En la pantalla foro se podrá ver los comentarios y escribir uno.
+
+## Pantalla de inicio de sesión administrador.
+![23](https://user-images.githubusercontent.com/78878606/111599273-673e1000-87d0-11eb-8802-ac32ba1c86a3.png)
+
+Se podrá iniciar sesion como administrador.
+
+## Menú administrador.
+![24](https://user-images.githubusercontent.com/78878606/111599391-7f159400-87d0-11eb-9f5e-95ccdfe14174.png)
+
+Se podrá acceder a todos estos campos.
+
+## Menú de noticias.
+![33](https://user-images.githubusercontent.com/78878606/111599502-9f455300-87d0-11eb-8a52-6a19eee8f056.png)
+
+En esta pantalla se elige si se quiere ir a crear noticia o eliminar noticia.
+
+##Eliminar noticias.
+![34](https://user-images.githubusercontent.com/78878606/111599619-c4d25c80-87d0-11eb-85bc-c4db63b93632.png)
+
+Se puede eliminar las noticias selecionadas.
+
+## Crear noticia.
+![35](https://user-images.githubusercontent.com/78878606/111599692-dae01d00-87d0-11eb-8c53-cacb45627399.png)
+
+Se puede crear una noticia rellenando los diferentes campos.
 
 # Mapa de navegación.
 Usuario:
