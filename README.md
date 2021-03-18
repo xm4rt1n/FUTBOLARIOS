@@ -129,12 +129,16 @@ Se podrá inic sesión para acceder al foro.
 En la pantalla foro se podrá ver los comentarios y escribir uno.
 
 # Mapa de navegación.
-
+Usuario:
 ![Esquema](https://user-images.githubusercontent.com/78878606/110747043-06e22800-823e-11eb-84df-5b202d3d8040.png)
+
+Administrador:
+![Esquema2](https://user-images.githubusercontent.com/78878606/111597390-64dab680-87ce-11eb-8d95-251094335304.png)
 
 No están todas las pantallas porque no entran en la imagen  pero están las pantallas principales.
 # Diagrama Entidad-Relación.
+![Diagrama E-R](https://user-images.githubusercontent.com/78878606/111597427-6f954b80-87ce-11eb-9bf4-af49e1778ea4.png)
 
-![Diagama ER](https://user-images.githubusercontent.com/78878606/110738097-f6768100-822e-11eb-9152-4fe0a3dbb720.jpg)
+Todas las relaciones son de tipo SETNULL para DELETE y UPDATE.
 
 
