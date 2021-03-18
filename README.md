@@ -163,7 +163,7 @@ En esta pantalla se elige si se quiere ir a crear equipo o eliminar equipo.
 
 Se podrá eliminar los equipos selecionados.
 
-## Crear equipoo.
+## Crear equipo.
 ![32](https://user-images.githubusercontent.com/78878606/111600262-84bfa980-87d1-11eb-9410-43c95e64b86e.png)
 
 Se podrá crea un equipo.
@@ -181,7 +181,7 @@ Se podrá eliminar los jugadores seleccionados.
 ## Crear jugadores.
 ![29](https://user-images.githubusercontent.com/78878606/111600603-dec06f00-87d1-11eb-9a79-e307a3eb1802.png)
 
-Se podrá crear un jugador rellenando lo campos.
+Se podrá crear un jugador rellenando los campos.
 
 # Mapa de navegación.
 Usuario:
