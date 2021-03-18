@@ -34,13 +34,13 @@ Nombre, escudo, número de jugadores, goles metidos, goles encajados, partidos g
 
 ## 3. Jugador
 
-Se podra ver la informacion del jugador, además se podrá creae un jugador y eliminar desde el administrador.
+Se podra ver la informacion del jugador, además se podrá crear y eliminar un jugador desde el administrador.
 
 Nombre, edad, nacionalidad, equipo, goles, asistencias, partidos jugados
 
 ## 4. Usuario
 
-Podra crear su perfil, eliminarlo, modificarlo y verlo, además se podra eliminar también desde el administrador.
+Podra crear su perfil, eliminarlo, modificarlo y verlo, además se podrá eliminar los usuarios desde el administrador.
 
 Nombre, contraseña, equipo favorito, edad.
 
