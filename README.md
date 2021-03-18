@@ -143,7 +143,7 @@ Se podrá acceder a todos estos campos.
 
 En esta pantalla se elige si se quiere ir a crear noticia o eliminar noticia.
 
-##Eliminar noticias.
+## Eliminar noticias.
 ![34](https://user-images.githubusercontent.com/78878606/111599619-c4d25c80-87d0-11eb-85bc-c4db63b93632.png)
 
 Se puede eliminar las noticias selecionadas.
@@ -152,6 +152,36 @@ Se puede eliminar las noticias selecionadas.
 ![35](https://user-images.githubusercontent.com/78878606/111599692-dae01d00-87d0-11eb-8c53-cacb45627399.png)
 
 Se puede crear una noticia rellenando los diferentes campos.
+
+## Menú de equipos.
+![30](https://user-images.githubusercontent.com/78878606/111600025-41653b00-87d1-11eb-93bf-c64dc51b3480.png)
+
+En esta pantalla se elige si se quiere ir a crear equipo o eliminar equipo.
+
+## Eliminar equipos.
+![31](https://user-images.githubusercontent.com/78878606/111600153-648fea80-87d1-11eb-91a1-5d0598724adc.png)
+
+Se podrá eliminar los equipos selecionados.
+
+## Crear equipoo.
+![32](https://user-images.githubusercontent.com/78878606/111600262-84bfa980-87d1-11eb-9410-43c95e64b86e.png)
+
+Se podrá crea un equipo.
+
+## Menú de jugadores.
+![27](https://user-images.githubusercontent.com/78878606/111600383-a6209580-87d1-11eb-8035-904e9753b044.png)
+
+En esta pantalla se elige si se quiere ir a  crear jugadores o eliminar jugadores.
+
+## Eliminar jugadores.
+![28](https://user-images.githubusercontent.com/78878606/111600523-ca7c7200-87d1-11eb-9f8e-d7a2efe7d482.png)
+
+Se podrá eliminar los jugadores seleccionados.
+
+## Crear jugadores.
+![29](https://user-images.githubusercontent.com/78878606/111600603-dec06f00-87d1-11eb-9a79-e307a3eb1802.png)
+
+Se podrá crear un jugador rellenando lo campos.
 
 # Mapa de navegación.
 Usuario:
