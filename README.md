@@ -22,30 +22,31 @@ Además tendrá una sección privada:
 
 ## 1. Noticia
 
-En esta sección el usuario podrá ver la actualidad futbolística
+En esta sección el usuario podrá ver la actualidad futbolística, además se podra crear noticia e eliminar desde el administrador.
 
 Cada noticia tendra un titulo, un desarrollo, un equipo/s asociado y una fecha 
 
 ## 2. Equipo
 
-Se podrá ver la información del equipo
+Se podrá ver la información del equipo, además se podrá crear un equipo y eliminar desde el administrador.
+
 Nombre, escudo, número de jugadores, goles metidos, goles encajados, partidos ganados, perdidos, empatados, puntos
 
 ## 3. Jugador
 
-Se podra ver la informacion del jugador
+Se podra ver la informacion del jugador, además se podrá creae un jugador y eliminar desde el administrador.
 
 Nombre, edad, nacionalidad, equipo, goles, asistencias, partidos jugados
 
 ## 4. Usuario
 
-Podra personalizar su perfil
+Podra crear su perfil, eliminarlo, modificarlo y verlo, además se podra eliminar también desde el administrador.
 
 Nombre, contraseña, equipo favorito, edad.
 
 ## 5. Mensaje
 
-El usuario podrá escribir y leer mensajes
+El usuario podrá escribir y leer mensajes, además el administrador podrá borrar los mensajes.
 
 Autor, contenido, fecha
 
