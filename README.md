@@ -66,7 +66,7 @@ Cristofer Tamaral Martin	 c.tamaral.2018@alumnos.urjc.es
 # Pantallas y descripción.
 
 ## Pantalla principal.
-![22](https://user-images.githubusercontent.com/78878606/111599144-437aca00-87d0-11eb-91b9-c659a8483d06.png)
+![1](https://user-images.githubusercontent.com/78878606/114533104-d848da00-9c4d-11eb-90c2-06096b955579.png)
 
 En ella encontramos las distintas opciones donde podemos ver las distintas secciones a las que podemos acceder.
 
@@ -96,7 +96,7 @@ A esta pantalla se accede desde la pantalla principal, aqui podremos elegir el e
 Se puede visualizar todos los  valores guardado de cada jugador.
 
 ## Pantalla de usuarios.
-![7](https://user-images.githubusercontent.com/78878606/110748667-588bb200-8240-11eb-9b04-f1c3abb4e3f4.png)
+![2](https://user-images.githubusercontent.com/78878606/114533320-0d552c80-9c4e-11eb-8f27-c35ff8ca0b88.png)
 
 Si en la pantalla de inicio seleccionamos el boton "Usuario" accedemos a esta pantalla, la cual nos da dos opciones iniciar sesion o registartrse.
 
@@ -104,6 +104,11 @@ Si en la pantalla de inicio seleccionamos el boton "Usuario" accedemos a esta pa
 ![10](https://user-images.githubusercontent.com/78878606/110748765-7d802500-8240-11eb-8ad8-cda72d846e37.jpg)
 
 Al presionar en inciar sesion llegamos a esta pantalla en la que nos encontramos con dos campos que han de ser rellenados, el apodo y la contraseña.
+
+##  Pantalla de menú de usuario.
+![3](https://user-images.githubusercontent.com/78878606/114533673-6e7d0000-9c4e-11eb-9259-412650d4730d.png)
+
+En ella puedes dirigirte a tu perfil o al foro.
 
 ## Mi perfil.
 ![13](https://user-images.githubusercontent.com/78878606/110749051-df408f00-8240-11eb-80b9-a82aee85e818.png)
