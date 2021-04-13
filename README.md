@@ -206,5 +206,6 @@ No están todas las pantallas porque no entran en la imagen  pero están las pan
 ![Diagrama E-R](https://user-images.githubusercontent.com/78878606/111597427-6f954b80-87ce-11eb-9bf4-af49e1778ea4.png)
 
 Todas las relaciones son del tipo SETNULL para DELETE y UPDATE.
+Además a  los usuarios tienen conexión  con  una tabla auxiliar que contiene los roles de cada usuario.
 
 
