@@ -119,10 +119,10 @@ Si ya estamos registrados accedemos a la pantalla de perfil en la cual aparecera
 ![14](https://user-images.githubusercontent.com/78878606/110749197-13b44b00-8241-11eb-97bc-8c61a18fe26d.png)
 En ella se podra modificar cualquier campo de tu perfil.
 
-## Pantalla de registro.
+## Pantalla de registro de USUARIO.
 ![8](https://user-images.githubusercontent.com/78878606/110749121-f67f7c80-8240-11eb-9be5-c0dd34ce7502.jpg)
 
-Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todos los datos de usuario.
+Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todos los datos de usuario. Como USUARIO.
 
 ## Pantalla de foro.
 ![20](https://user-images.githubusercontent.com/78878606/110749556-90472980-8241-11eb-876b-45a9b84450a2.png)
@@ -178,6 +178,11 @@ Se podrá eliminar los jugadores seleccionados.
 ![29](https://user-images.githubusercontent.com/78878606/111600603-dec06f00-87d1-11eb-9a79-e307a3eb1802.png)
 
 Se podrá crear un jugador rellenando los campos.
+
+## Pantalla de registro  ADMINISTRADOR.
+![5](https://user-images.githubusercontent.com/78878606/114538887-28c33600-9c54-11eb-82bd-303773f5e08b.png)
+
+En esta pantalla te podrás registrar como ADMINISTRADOR.
 
 ## Eliminar usuarios.
 ![26](https://user-images.githubusercontent.com/78878606/111601472-ad946e80-87d2-11eb-8aee-3d75288a4160.png)
