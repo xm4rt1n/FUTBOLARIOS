@@ -195,9 +195,10 @@ En esta pantalla se puede eliminar cualquier usuario seleccionado.
 En esta pantalla se puede eliminar mensajes del foro.
 
 # Mapa de navegación.
-![image](https://user-images.githubusercontent.com/78878606/114542787-a38e5000-9c58-11eb-94a3-0de649533c05.png)
+![DIAGRAMA FASE 3](https://user-images.githubusercontent.com/78878606/114543257-41821a80-9c59-11eb-8ee8-21fefd8187e2.png)
 
 Las casillas en azul hace referencia a  las ventanas  que puden ser acesibles por todos, las rojas sólo se pueden acceder si eres usuario y las verdes si eres administrador.
+
 # Diagrama Entidad-Relación.
 ![Diagrama E-R](https://user-images.githubusercontent.com/78878606/111597427-6f954b80-87ce-11eb-9bf4-af49e1778ea4.png)
 
