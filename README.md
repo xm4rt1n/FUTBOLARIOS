@@ -103,7 +103,7 @@ Si en la pantalla de inicio seleccionamos el boton "Usuario" accedemos a esta pa
 ## Pantalla de inicio de sesión.
 ![10](https://user-images.githubusercontent.com/78878606/110748765-7d802500-8240-11eb-8ad8-cda72d846e37.jpg)
 
-Al presionar en inciar sesion llegamos a esta pantalla en la que nos encontramos con dos campos que han de ser rellenados, el apodo y la contraseña.
+Al presionar en inciar sesion llegamos a esta pantalla en la que nos encontramos con dos campos que han de ser rellenados, el apodo y la contraseña. Te dirigiras al modo USUARIO o ADMINISTRADOR
 
 ##  Pantalla de menú de usuario.
 ![3](https://user-images.githubusercontent.com/78878606/114533673-6e7d0000-9c4e-11eb-9259-412650d4730d.png)
@@ -124,23 +124,13 @@ En ella se podra modificar cualquier campo de tu perfil.
 
 Si decidimos registrarnos llegamos a esta pantalla donde hemos de completar todos los datos de usuario.
 
-## Pantalla de inicio sesión en foro.
-![17](https://user-images.githubusercontent.com/78878606/110749429-7279c480-8241-11eb-9340-5122810967e7.png)
-
-Se podrá inic sesión para acceder al foro.
-
 ## Pantalla de foro.
 ![20](https://user-images.githubusercontent.com/78878606/110749556-90472980-8241-11eb-876b-45a9b84450a2.png)
 
 En la pantalla foro se podrá ver los comentarios y escribir uno.
 
-## Pantalla de inicio de sesión administrador.
-![23](https://user-images.githubusercontent.com/78878606/111599273-673e1000-87d0-11eb-8802-ac32ba1c86a3.png)
-
-Se podrá iniciar sesion como administrador.
-
 ## Menú administrador.
-![24](https://user-images.githubusercontent.com/78878606/111599391-7f159400-87d0-11eb-9f5e-95ccdfe14174.png)
+![4](https://user-images.githubusercontent.com/78878606/114534157-f8c56400-9c4e-11eb-8391-4a96d15a1f2a.png)
 
 Se podrá acceder a todos estos campos.
 
