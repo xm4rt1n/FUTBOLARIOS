@@ -205,10 +205,10 @@ Las casillas en azul hace referencia a  las ventanas  que puden ser acesibles po
 Todas las relaciones son del tipo SETNULL para DELETE y UPDATE.
 Además a  los usuarios tienen conexión  con  una tabla auxiliar que contiene los roles de cada usuario.
 
-#UML Sistema Interno
+#  UML Sistema Interno
 ![UML SI](https://user-images.githubusercontent.com/78878606/116233695-e7567e80-a75b-11eb-9da2-bfde338f3927.png)
 
-#UML Aplicación
+# UML Aplicacción
 ![UML APP](https://user-images.githubusercontent.com/78878606/116233750-fdfcd580-a75b-11eb-98d6-87908b615164.png)
 
 # Instrucciones para desplegar la aplicacion en la maquina virtual
