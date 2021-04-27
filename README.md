@@ -205,4 +205,6 @@ Las casillas en azul hace referencia a  las ventanas  que puden ser acesibles po
 Todas las relaciones son del tipo SETNULL para DELETE y UPDATE.
 Además a  los usuarios tienen conexión  con  una tabla auxiliar que contiene los roles de cada usuario.
 
+# Instrucciones para desplegar la aplicacion en la maquina virtual
+En este caso la maquina virtual tiene Windows 10 como sistema operativo, antes de nada hemos de instalar una version de java 11 o superior, procedemos a instalar MySQL y crear la base de datos, en el codigo hemos de introducir el nombre de esta base de datos y su contraseña para que pueda conectar correctametne. Generamos el jar con este dato modificado. Con esto podemos ejecutar nuestra aplicacion solo usando este jar.
 
