@@ -1,0 +1,62 @@
+services: 
+   #BASE DE DATOS
+   bbd:
+      image: mysql:8.0.25
+      container_name: contenedor_basededatos
+      restart: always
+      environment:
+         MYSQL_DATABASE: futbolarios2
+         MYSQL_USER: root
+         MYSQL_ROOT_PASSWORD: secret
+      ports: 
+         - "7706:3306"
+      expose: 
+         - "3306"
+      volumes:
+         - mysql-data-futbolarios:/var/lib/mysql
+   #SERVICIO INTERNO
+   serviciointerno:
+      build:
+         context: ./SERVICIOINTERNOFUTBOLARIOS/target
+         dockerfile: Dockerfile
+      container_name: contenedor_serviciointerno
+      image: si:v1
+   #APP WEB 1 
+   web1:
+      build:
+         context: ./FUTBOLARIOS/target
+         dockerfile: Dockerfile
+      container_name: contenedor_webapp1
+      image: app1:v1
+      ports: 
+         - "8443:9090"
+      expose: 
+         - "9090"
+      depends_on:
+        # - serviciointerno
+         - bbd 
+   #APP WEB 2
+   web2:
+      build:
+         context: ./FUTBOLARIOS/target
+         dockerfile: Dockerfile
+      container_name: contenedor_webapp2
+      image: app2:v1
+      ports: 
+         - "9443:9090"
+      expose: 
+         - "9090"
+      depends_on:
+        # - serviciointerno
+         - bbd 
+volumes:
+   mysql-data-futbolarios:
+      external: false
+   
+   
+         
+  
+      
+              
+   
+   
