@@ -214,3 +214,7 @@ Además a  los usuarios tienen conexión  con  una tabla auxiliar que contiene l
 # Instrucciones para desplegar la aplicacion en la maquina virtual
 En este caso la maquina virtual tiene Windows 10 como sistema operativo, antes de nada hemos de instalar una version de java 11 o superior, procedemos a instalar MySQL y crear la base de datos, en el codigo hemos de introducir el nombre de esta base de datos y su contraseña para que pueda conectar correctametne. Generamos el jar con este dato modificado. Con esto podemos ejecutar nuestra aplicacion solo usando este jar.
 
+#Diagrama de la infraestructura
+![arqui](https://user-images.githubusercontent.com/78878606/125021977-fc189200-e07b-11eb-83fd-3892b3197b1f.png)
+
+
